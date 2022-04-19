@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="home">Home</string>
+    <string name="payment">Payment</string>
+    <string name="history">History</string>
+    <string name="setting">Setting</string>
+    <string name="fragment_home">Fragment Home</string>
+    <string name="fragment_payment">Fragment Payment</string>
+    <string name="fragment_history">Fragment History</string>
+    <string name="fragment_setting">Fragment Setting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecoveryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:text=" Email"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/etemail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bgedittetxt"
+        android:hint="Email"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnsendemail"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bgbutton"
+        android:layout_marginHorizontal="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Email"/>
+
+</LinearLayout>
